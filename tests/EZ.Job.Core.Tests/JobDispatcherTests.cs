@@ -1,5 +1,6 @@
 using EZ.Job.Core;
 using Microsoft.Extensions.DependencyInjection;
+using Xunit;
 
 namespace EZ.Job.Core.Tests;
 
