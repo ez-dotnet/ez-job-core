@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Gabriel Albuquerque</Authors>
+    <Title>EZ.Job.Core</Title>
+    <Description>Job scheduler fire-and-forget de alta performance usando System.Threading.Channels.</Description>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Version>1.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>ez-job;background-job;fire-and-forget;channel;job-scheduler</PackageTags>
+    <RepositoryUrl>https://github.com/ez-dotnet/ez-job-core</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ez-dotnet/ez-job-core</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+</Project>

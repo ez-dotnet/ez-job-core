@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EZ.Job.Core/EZ.Job.Core.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/EZ.Job.Core.Sample/EZ.Job.Core.Sample.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EZ.Job.Core.Tests/EZ.Job.Core.Tests.csproj" />
+  </Folder>
+</Solution>
