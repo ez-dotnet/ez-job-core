@@ -14,7 +14,6 @@ public static class EZJobServiceCollectionExtensions
         services.AddSingleton<FireForgetChannel>();
         services.AddSingleton<RecoveryChannel>();
         services.AddSingleton<IJobStore, InMemoryJobStore>();
-        services.AddSingleton<IRecurringStore, InMemoryRecurringStore>();
         services.AddSingleton<IJobDispatcher, JobDispatcher>();
 
         for (var i = 0; i < options.WorkerCount; i++)

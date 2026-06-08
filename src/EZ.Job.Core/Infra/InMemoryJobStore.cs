@@ -27,14 +27,7 @@ public sealed class InMemoryJobStore : IJobStore
     {
         if (_jobs.TryGetValue(id, out var job))
         {
-            var now = DateTime.UtcNow;
-            _jobs[id] = job with
-            {
-                Status = status,
-                Error = error,
-                StartedAt = status == JobStatus.Processing ? (job.StartedAt ?? now) : job.StartedAt,
-                CompletedAt = status is JobStatus.Succeeded or JobStatus.Failed ? now : null
-            };
+            _jobs[id] = job with { Status = status, Error = error };
         }
         return default;
     }
