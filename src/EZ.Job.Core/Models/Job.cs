@@ -9,4 +9,6 @@ public record class Job(
     JobStatus Status,
     DateTime CreatedAt,
     string? Error,
+    DateTime? StartedAt,
+    DateTime? CompletedAt,
     string? RecurringJobId = null);
