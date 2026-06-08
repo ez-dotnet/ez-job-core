@@ -42,8 +42,6 @@ public sealed class JobDispatcher : IJobDispatcher
             JobStatus.Enqueued,
             DateTime.UtcNow,
             Error: null,
-            StartedAt: null,
-            CompletedAt: null,
             RecurringJobId: null);
 
         await _store.AddAsync(job, cancellationToken).ConfigureAwait(false);
