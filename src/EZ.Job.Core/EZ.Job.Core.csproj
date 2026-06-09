@@ -5,6 +5,10 @@
     <PackageId>EZ.Job.Core</PackageId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EZ.Job.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+
   <ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
   </ItemGroup>
