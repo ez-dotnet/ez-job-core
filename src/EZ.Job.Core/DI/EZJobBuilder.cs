@@ -1,6 +1,6 @@
 namespace Microsoft.Extensions.DependencyInjection;
 
-public class EZJobBuilder
+public class EZJobBuilder : IEZJobBuilder
 {
     public IServiceCollection Services { get; }
     public EZ.Job.Core.EZJobOptions Options { get; }
